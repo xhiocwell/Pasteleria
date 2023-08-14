@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding-top: 5px;
+    font-family: Arial, sans-serif;
+    background-image: url(fondo\ segundo.PNG);
+  }
+  header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+    font-family: Brush Script MT;
+  }
+  #logo img {
+    height: 180px;
+    margin-right: 10px;
+  }
+  #logo h1 {
+    color:#DA52D8;
+    font-size: 50px;
+  }
+  #botones {
+    display: flex;
+    gap: 80px;
+    padding-right: 180px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  #botones a {
+    border: 2px solid #DA52D8;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 15px;
+  }
+  #botones a:hover{
+    color: #DA52D8;
+  }
+  .spam{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .tab{
+    border: 2px solid black;
+    margin: 15px;
+    display: block;
+  }
+  .card-group{
+    gap: 15px;
+    padding: 10px;
+    margin: 20px;
+    color: red;
+  }
+  .card{
+    cursor: pointer;
+  }
+  h5{
+    background-color: white;
+    text-align: center;
+    color: red;
+  }
+  .hh{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #DA52D8;
+    font-size: 30px;
+    font-family: Rockwell;
+  }
+  .fin{
+    background-color: black;
+    padding: 50px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  .fin1{
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;
+    padding-bottom: 5px;
+  }
+  .im12{
+    margin: 30px;
+    width: 1000px;
+  }
+  .contact{
+   border: 2px solid black;
+   background-image: url(fondo\ cuarto.PNG);
+   padding: 50px;
+   margin: 50px;
+  }
+  .con{
+    font-family:Brush Script MT;
+    text-align: center;
+    font-size: 155px;
+    color: #DA52D8;
+  }
+  .con1{
+    font-size: 50px;
+    color: white;
+    font-family: Brush Script MT;
+  }
+  .con2{
+    display: block; /* Convertir la imagen en un bloque para ajustar el ancho */
+    margin: 0 auto; 
+
+  }

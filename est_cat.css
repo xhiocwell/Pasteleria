@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding-top: 5px;
+    font-family: Arial, sans-serif;
+    background-image: url(fondo\ primero.PNG);
+  }
+  header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+    font-family: Brush Script MT;
+  }
+  #logo img {
+    height: 180px;
+    margin-right: 10px;
+  }
+  #logo h1 {
+    color:#DA52D8;
+    font-size: 50px;
+  }
+  #botones {
+    display: flex;
+    gap: 80px;
+    padding-right: 180px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  #botones a {
+    border: 2px solid #DA52D8;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 15px;
+  }
+  #botones a:hover{
+    color: #DA52D8;
+  }
+  .card-group{
+    padding: 25px;
+    gap: 25px;
+    text-align: center;
+  }
+  .fin{
+    background-color: black;
+    padding: 50px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  .fin1{
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;
+    padding-bottom: 5px;
+  }
